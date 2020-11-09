@@ -62,7 +62,7 @@
 /* BLOWOUTS */
 .blowouts{
     width: 75%;
-    background-image: url(/static/pictures/blowout.JPG);
+    background-image: url(/static/pictures/blowout.jpg);
     background-size: cover;
     color: white;
     display: inline-block;
@@ -76,7 +76,7 @@
 /* HIGHLIGHTS */
 .highlights{
     width: 75%;
-    background-image: url(/static/pictures/hbsmpic4.JPG);
+    background-image: url(/static/pictures/hbsmpic4.jpg);
     background-size: cover;
     color: white;
     display: inline-block;
@@ -104,7 +104,7 @@
 /* BALAYAGE */
 .balayage{
     width: 75%;
-    background-image: url(/static/pictures/hbsmpic5.JPG);
+    background-image: url(/static/pictures/hbsmpic5.jpg);
     background-size: cover;
     color: white;
     display: inline-block;
@@ -119,7 +119,7 @@
 /* HAIRCUTS */
 .haircuts{
     width: 75%;
-    background-image: url(/static/pictures/hbsmpic10.JPG);
+    background-image: url(/static/pictures/hbsmpic10.jpg);
     background-size: cover;
     color: white;
     display: inline-block;
@@ -134,7 +134,7 @@
 /* EXTENSIONS */
 .extensions{
     width: 75%;
-    background-image: url(/static/pictures/extensions.JPG);
+    background-image: url(/static/pictures/extensions.jpg);
     background-size: cover;
     color: white;
     display: inline-block;
