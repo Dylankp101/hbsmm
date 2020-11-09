@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* border: solid black 1px; */
+}
+
+
+/* BACKGROUND  */
+.background{
+background-color: #db9adf;
+}
+
+
+/* NAVBAR */
+.navbar{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+}
+.navbuttons, a{
+    width:30%;
+    color: black;
+    font-size: larger;
+}
+.navbuttons, button{
+    border: 0px white;
+    font-size: 1vw;
+    margin: 1.5% 1% ;
+}
+.navlinks:hover{
+    font-size: 1.3vw;
+    text-decoration: none;
+}
+#headname, .navbuttons, .minicontact{
+    display: inline-block;
+}
+#headname{
+    width: 30%;
+    font-size: 2vw;
+}
+.minicontact{
+    width: 30%;
+    font-size: 1.5vw;
+}
+
+
+
+
+
+
+/* TABLE  */
+.table{
+    overflow: scroll;
+}
+.table{
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    margin-top: 2%;
+    border-radius: 2px;
+}
+.thead{
+    background-color: #ddf4f3;
+}
+.tbody{
+    background-color: #eaeaea;
+}
+.th{
+    color: black;
+    border: thin black;
+
+}
+.td{
+    color: black;
+    border: thin black;
+}
+.delete{
+    text-decoration: none;
+    background-color: #add9e6;
+    border-radius: 5px;
+    padding: 1px;
+}
+.delete:hover{
+    background-color: #faced5;
+    border-radius: 5px;
+    padding: 1px;
+    transition-duration: .4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER  */
+.footer{
+background-color: #db9adf;
+padding-bottom: 2%;
+}
+
+
+
+
+
+
+

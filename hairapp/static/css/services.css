@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* border: solid black 1px; */
+}
+/* BACKGROUND  */
+.background{
+    background-image: url(/static/pictures/hbsmpic20.jpeg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+
+/* NAVBAR */
+.navbar{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+}
+.navbuttons, a{
+    width:30%;
+    color: black;
+    font-size: larger;
+}
+.navbuttons, button{
+    border: 0px white;
+    font-size: 1vw;
+    margin: 1.5% 1% ;
+}
+.navlinks:hover{
+    font-size: 1.3vw;
+    text-decoration: none;
+}
+.minicontact{
+    width: 30%;
+    font-size: 1.5vw;
+}
+#headname, .navbuttons, .minicontact{
+    display: inline-block;
+}
+#headname{
+    width: 30%;
+    font-size: 2vw;
+}
+
+
+/* MAIN HEADER */
+.services{
+    padding-top: 28%;
+    padding-bottom: 22%;
+    text-align: center;
+    color: white;
+    font-size: 10vw;
+    text-decoration: underline;
+}
+
+
+
+/* SERVICE BOXES */
+
+/* BLOWOUTS */
+.blowouts{
+    width: 75%;
+    background-image: url(/static/pictures/blowout.JPG);
+    background-size: cover;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    font-size: 6vw;
+    margin-left: 12.5%;
+}
+/* HIGHLIGHTS */
+.highlights{
+    width: 75%;
+    background-image: url(/static/pictures/hbsmpic4.JPG);
+    background-size: cover;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    font-size: 6vw;
+    margin-left: 12.5%;
+}
+/* COLOR */
+.color{
+    width: 75%;
+    background-image: url(/static/pictures/hbsmpic3.jpg);
+    background-size: cover;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    font-size: 6vw;
+    margin-left: 12.5%;
+}
+/* BALAYAGE */
+.balayage{
+    width: 75%;
+    background-image: url(/static/pictures/hbsmpic5.JPG);
+    background-size: cover;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    font-size: 6vw;
+    margin-left: 12.5%;
+}
+/* HAIRCUTS */
+.haircuts{
+    width: 75%;
+    background-image: url(/static/pictures/hbsmpic10.JPG);
+    background-size: cover;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    font-size: 6vw;
+    margin-left: 12.5%;
+}
+/* EXTENSIONS */
+.extensions{
+    width: 75%;
+    background-image: url(/static/pictures/extensions.JPG);
+    background-size: cover;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    font-size: 6vw;
+    margin-left: 12.5%;
+}
+/* INFO BOXES/PRICING */
+.lower_info_box1{
+    display: inline-block;
+    width: 69%;
+    margin-left:12.5% ;
+    margin-right: 0%;
+    text-align: left;
+    vertical-align: top;
+    font-size: 1vw;
+    padding: 3%;
+    background-color: #ddf4f3;
+}
+/* BACKGROUND COLOR */
+.service_boxes{
+    background-color: white;
+}
+
+
+
+/* FOOTER */
+.footer{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-bottom: 1%;
+    font-size: 1vw;
+    margin-top: 5%;
+}
+.emailer{
+    padding: 3px;
+    font-size: 1vw;
+}
+
+
+
+
+
+

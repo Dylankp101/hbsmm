@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* border: solid black 1px; */
+}
+
+
+
+/* NAVABR */
+.navbar{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+}
+.navbuttons, a{
+    width:30%;
+    color: black;
+    font-size: larger;
+}
+.navbuttons, button{
+    border: 0px white;
+    font-size: 1vw;
+    margin: 1.5% 1% ;
+}
+.navlinks:hover{
+    font-size: 1.3vw;
+    text-decoration: none;
+}
+#headname, .navbuttons, .minicontact{
+    display: inline-block;
+}
+#headname{
+    width: 30%;
+    font-size: 2vw;
+}
+.minicontact{
+    width: 30%;
+    font-size: 1.5vw;
+}
+
+
+
+
+
+
+/* START OF PORTFOLIO IMAGES */
+.spacer{
+    background-image: url(/static/pictures/hbsmpic16.jpeg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 25%;
+    text-align: center;
+    padding-bottom: 25%;
+    font-size: 4vw;
+    color: white;
+}
+.spacer2{
+    background-image: url(/static/pictures/hbsmpic1.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40%;
+    text-align: center;
+    padding-bottom: 40%;
+    font-size: 4vw;
+    color: white;
+}
+.spacer3{
+    background-image: url(/static/pictures/hbsmpic2.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40%;
+    text-align: center;
+    padding-bottom: 40%;
+    font-size: 4vw;
+    color: white;
+}
+.spacer4{
+    background-image: url(/static/pictures/hbsmpic3.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40%;
+    text-align: center;
+    padding-bottom: 40%;
+    font-size: 4vw;
+    color: white;
+}
+.spacer5{
+    background-image: url(/static/pictures/hbsmpic4.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40%;
+    text-align: center;
+    padding-bottom: 40%;
+    font-size: 4vw;
+    color: white;
+}
+.spacer6{
+    background-image: url(/static/pictures/hbsmpic5.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40%;
+    text-align: center;
+    padding-bottom: 40%;
+    font-size: 4vw;
+    color: white;
+}
+.spacer7{
+    background-image: url(/static/pictures/hbsmpic12.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40%;
+    text-align: center;
+    padding-bottom: 40%;
+    font-size: 4vw;
+    color: white;
+}
+.spacer8{
+    background-image: url(/static/pictures/hbsmpic13.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40%;
+    text-align: center;
+    padding-bottom: 40%;
+    font-size: 4vw;
+    color: white;
+}
+.spacer9{
+    background-image: url(/static/pictures/hbsmpic14.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40%;
+    text-align: center;
+    padding-bottom: 40%;
+    font-size: 4vw;
+    color: white;
+}
+.spacer10{
+    background-image: url(/static/pictures/hbsmpic15.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40%;
+    text-align: center;
+    padding-bottom: 40%;
+    font-size: 4vw;
+    color: white;
+}
+.spacer11{
+    background-image: url(/static/pictures/hbsmpic11.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40%;
+    text-align: center;
+    padding-bottom: 40%;
+    font-size: 4vw;
+    color: white;
+}
+.spacer12{
+    background-image: url(/static/pictures/hbsmpic7.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40%;
+    text-align: center;
+    padding-bottom: 40%;
+    font-size: 4vw;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.footer{
+background-color: black;
+width: 100%;
+text-align: center;
+color: white;
+padding-bottom: 1%;
+font-size: 1vw;
+}
+.emailer{
+    padding: 3px;
+    font-size: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

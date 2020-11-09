@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* border: solid black 1px; */
+}
+
+
+/* BACKGROUND  */
+.background{
+    background-image: url(/static/pictures/hbsmpic6.jpeg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+
+/* NAVBAR  */
+.navbar{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+}
+.navbuttons, a{
+    width:30%;
+    color: black;
+    font-size: larger;
+}
+.navbuttons, button{
+    border: 0px white;
+    font-size: 1vw;
+    margin: 1.5% 1% ;
+}
+.navlinks:hover{
+    font-size: 1.3vw;
+    text-decoration: none;
+}
+#headname, .navbuttons, .minicontact{
+    display: inline-block;
+}
+#headname{
+    width: 30%;
+    font-size: 2vw;
+    color: black;
+}
+.minicontact{
+    width: 30%;
+    font-size: 1.5vw;
+}
+
+
+
+
+/* HEADING SPACER  */
+.spacer{
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+
+
+
+
+
+
+/* FIRST & SECOND BELLY BREAK  */
+.belly{
+    background-color: white;
+
+}
+.info_box1{
+    width: 25%;
+    height: 30%;
+    background-image: url(/static/pictures/hbsmpic7.jpg);
+    background-size: cover;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 7%;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 1vw;
+}
+.info_box2{
+    width: 25%;
+    height: 30%;
+    background-image: url(/static/pictures/hbsmpic3.jpg);
+    background-size: cover;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 1vw;
+}
+.info_box3{
+    width: 25%;
+    height: 30%;
+    background-image: url(/static/pictures/hbsmpic10.jpg);
+    background-size: cover;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 1vw;
+}
+.boxheadtag{
+    color: white;
+}
+.info_box1-b{
+    width: 25%;
+    height: 30%;
+    background-image: url(/static/pictures/facebooklogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 1vw;
+
+}
+.info_box2-b{
+    width: 25%;
+    height: 30%;
+    background-image: url(/static/pictures/instagram.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 4%;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 1vw;
+
+}
+.info_box3-b{
+    width: 25%;
+    height: 30%;
+    background-image: url(/static/pictures/tiktok.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 4%;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 1vw;
+
+}
+
+.smpics{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* LOWER BOX IN BELLY  */
+.belly2{
+    padding: 3% 1%;
+    background-color: white;
+}
+.lower_info_box1{
+    display: inline-block;
+    width: 40%;
+    margin-left:6% ;
+    margin-right: 2%;
+    text-align: left;
+    vertical-align: top;
+    font-size: 1vw;
+}
+
+
+
+
+
+
+/* BOOK APPOINTMENT SPACER  */
+.spacer2{
+    background-image: url(/static/pictures/woodgrey.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20%;
+    text-align: center;
+    padding-bottom: 20%;
+    font-size: 3vw;
+    color: white;
+}
+
+
+
+
+
+
+/* VIEW PORTFOLIO SPACER  */
+.spacer3{
+    background-image: url(/static/pictures/pinkroses.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20%;
+    text-align: center;
+    padding-bottom: 20%;
+    font-size: 3vw;
+    color: white
+}
+.button{
+    background-color: lightgrey;
+    border: black 2px solid;
+    padding: 15px;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: #db9adf;
+    transition-duration: .4s;
+}
+
+
+
+
+
+
+
+
+/* FOOTER  */
+.footer{
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding-bottom: 1%;
+    font-size: 1vw;
+}
+.footertext{
+    text-align: center;
+}
+#login{
+    color: white;
+    padding-left: 95%;
+}

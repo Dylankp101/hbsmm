@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/clients.css' %}">
+</head>
+
+<body>
+
+<!-- NAVBAR   -->
+    <div class="background">
+        <div class="navbar">
+            <a class="headtag" href="/"><h1 id="headname">@HAIRBYSADIEMAE</h1></a>
+                <div class="navbuttons">
+                    <a class="navlinks" href="/services">SERVICES</a>
+                    <a class="navlinks" href="/portfolio">PORTFOLIO</a>
+                    <a class="navlinks" href="/appointments">APPOINTMENTS</a>
+                </div>
+            <div class="minicontact">
+                <button class="emailer" type="submit"><a href="/logout">LOGOUT</a></button>
+            </div>
+        </div>
+
+
+
+        <div class="table">
+            <table class="table">
+                <thead class="thead">
+                    <tr>
+                        <th class="th">Name</th>
+                        <th class="th">ID</th>
+                        <th class="th">Email</th>
+                        <th class="th">Phone</th>
+                        <th class="th">Date</th>
+                        <th class="th">Time</th>
+                        <th class="th">Notes</th>
+                        <th class="th">Delete</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody">
+                    {% for i in clients %}
+                    <tr>
+                        <td class="td">{{i.id}}</td>
+                        <td class="td">{{i.name}}</td>
+                        <td class="td">{{i.email}}</td>
+                        <td class="td">{{i.phone}}</td>
+                        <td class="td">{{i.date}}</td>
+                        <td class="td">{{i.time}}</td>
+                        <td class="td">{{i.notes}}</td>
+                        <td class="td"><a class="delete" href="/delete/{{i.id}}">DELETE</a></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+<!-- FOOTER  -->
+        <div class="footer"></div>
+
+
+    </div>
+
+
+</body>
+
+</html>

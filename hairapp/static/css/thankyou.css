@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* border: solid black 1px; */
+}
+
+
+/* BACKGROUND COLOR */
+body{
+    background-color: #db9adf;
+}
+
+/* NAVBAR */
+.navbar{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    
+}
+.navbuttons, a{
+    width:30%;
+    color: black;
+    font-size: larger;
+}
+.navbuttons, button{
+    border: 0px white;
+    font-size: 1vw;
+    margin: 1.5% 1% ;
+    
+}
+.navlinks:hover{
+    font-size: 1.3vw;
+    text-decoration: none;
+}
+#headname, .navbuttons, .minicontact{
+    display: inline-block;
+}
+#headname{
+    width: 30%;
+    font-size: 2vw;
+    color: black;
+}
+.minicontact{
+    width: 30%;
+    font-size: 1.5vw;
+}
+
+
+
+/* THANK YOU NOTE */
+.container{
+    background-color: lightblue;
+    width: 55%;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 3vw;
+    padding: 1%;
+}
+.text{
+    text-align: center;
+}
